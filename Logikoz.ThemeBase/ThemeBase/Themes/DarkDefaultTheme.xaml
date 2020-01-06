@@ -12,6 +12,8 @@
     <Color x:Key="BackgroundColor">#1E1E1E</Color>
     <Color x:Key="BackgroundTextColor">#ffffff</Color>
 
+    <Color x:Key="DialogBackgroundColor">#2D2D2D</Color>
+
     <Color x:Key="NavigationBarColor">#9d0af5</Color>
     <Color x:Key="NavigationBarTextColor">#ffffff</Color>
 

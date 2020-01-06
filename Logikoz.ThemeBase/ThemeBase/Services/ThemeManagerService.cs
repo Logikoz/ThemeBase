@@ -11,14 +11,14 @@ namespace Logikoz.ThemeBase.Services
 {
     public class ThemeManagerService
     {
-        public static void ChangeTheme(ThemeEnum theme, string key = "SelectedTheme")
+        public static void ChangeTheme(ThemeEnum theme)
         {
             ICollection<ResourceDictionary> mergedDictionaries = Application.Current.Resources.MergedDictionaries;
             if (mergedDictionaries != null)
             {
                 mergedDictionaries.Clear();
 
-                CrossSettings.Current.AddOrUpdateValue(key, (int)theme);
+                CrossSettings.Current.AddOrUpdateValue("CurrentTheme", (int)theme);
 
                 mergedDictionaries.Add(
                     theme switch
@@ -29,9 +29,5 @@ namespace Logikoz.ThemeBase.Services
                     });
             }
         }
-
-        public static void LoadTheme() => ChangeTheme(CurrentTheme());
-
-        public static ThemeEnum CurrentTheme(string key = "SelectedTheme") => (ThemeEnum)CrossSettings.Current.GetValueOrDefault(key, (int)ThemeEnum.Light);
     }
 }
