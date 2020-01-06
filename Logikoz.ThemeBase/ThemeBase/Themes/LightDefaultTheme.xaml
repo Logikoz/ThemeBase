@@ -12,7 +12,7 @@
     <Color x:Key="BackgroundColor">#FFFFFF</Color>
     <Color x:Key="BackgroundTextColor">#1E1E1E</Color>
 
-    <Color x:Key="NavigationBarColor">#44056A</Color>
+    <Color x:Key="NavigationBarColor">#9d0af5</Color>
     <Color x:Key="NavigationBarTextColor">#ffffff</Color>
 
     <Color x:Key="SeparatorLineColor">#ececec</Color>
