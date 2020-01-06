@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary
+    x:Class="Logikoz.ThemeBase.Themes.DarkDefaultTheme"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <Color x:Key="PrimaryColor">#9d0af5</Color>
+    <Color x:Key="PrimaryDarkColor">#9d0af5</Color>
+    <Color x:Key="PrimaryTintColor">#FFFFFF</Color>
+    <Color x:Key="PageBackgroundColor">#141414</Color>
+    <Color x:Key="NavigationBarColor">#9d0af5</Color>
+    <Color x:Key="PrimaryTextColor">#ffffff</Color>
+    <Color x:Key="SecondaryTextColor">#bdbdbd</Color>
+    <Color x:Key="SubTextColor">#a5a5a5</Color>
+    <Color x:Key="OverlayTextColor">#FFFFFF</Color>
+    <Color x:Key="TransperantBackgroundColor">#56000000</Color>
+    <Color x:Key="SeparatorLineColor">#464646</Color>
+</ResourceDictionary>
