@@ -15,6 +15,9 @@
         NavigationBarColor,
         NavigationBarTextColor,
 
+        SnackBarColor,
+        SnackBarTextColor,
+
         SeparatorLineColor
     }
 }

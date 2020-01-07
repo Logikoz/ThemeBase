@@ -17,6 +17,9 @@
     <Color x:Key="NavigationBarColor">#9d0af5</Color>
     <Color x:Key="NavigationBarTextColor">#ffffff</Color>
 
+    <Color x:Key="SnackBarColor">#A7A7A7</Color>
+    <Color x:Key="SnackBarTextColor">#ffffff</Color>
+
     <Color x:Key="SeparatorLineColor">#484848</Color>
 
 </ResourceDictionary>
