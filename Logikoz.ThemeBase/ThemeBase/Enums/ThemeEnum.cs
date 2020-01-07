@@ -3,6 +3,7 @@
     public enum ThemeEnum
     {
         Dark,
-        Light
+        Light,
+        Custom
     }
 }
