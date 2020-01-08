@@ -20,6 +20,9 @@
     <Color x:Key="SnackBarColor">#A7A7A7</Color>
     <Color x:Key="SnackBarTextColor">#ffffff</Color>
 
+    <Color x:Key="CardColor">#3b3b3b</Color>
+    <Color x:Key="CardTextColor">#7e7e7e</Color>
+
     <Color x:Key="SeparatorLineColor">#484848</Color>
 
 </ResourceDictionary>
