@@ -11,7 +11,7 @@
     <RepositoryUrl>https://github.com/Logikoz/ThemeBase/</RepositoryUrl>
     <PackageTags>Xamarin.Forms, .NETStandard</PackageTags>
     <NeutralLanguage>pt-BR</NeutralLanguage>
-    <Version>1.0.7</Version>
+    <Version>1.0.9</Version>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageIconUrl />
     <PackageIcon>theme.png</PackageIcon>
